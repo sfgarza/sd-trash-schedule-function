@@ -1,5 +1,6 @@
 /**
- * 
+ * Google Cloud Function that uses puppeteer to retrieve the Trash/Recycling Schedule 
+ * from a form on the San Diego County website
  */
 const puppeteer = require('puppeteer');
 const API_KEY =  process.env.API_KEY;
