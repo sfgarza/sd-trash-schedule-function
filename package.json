@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "functions-framework --target=trashSchedule",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^1.5.0"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.4.0"
   }
 }
